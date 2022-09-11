@@ -1,0 +1,60 @@
+/*** body ***/
+body{
+  background-color: #f1f3f5ed; 
+  
+}
+
+/* Navbar */
+.navbar{
+    max-height: 50px;
+    background-color: white; 
+    font-size: 15px; 
+}
+
+.navigation .navbar-brand{
+  color: white; 
+  margin-left: 30px; 
+  padding-left: 10px; 
+  padding-right: 10px;
+  font-weight: bolder; 
+  background-color: steelblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large ;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+  background-color:steelblue!important;
+  font-weight: bolder; 
+}
+
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color:lightgrey !important; 
+}
+a{
+  color: #ec3685;
+  font-size: 15px; 
+}
+.nav-link:hover{
+  background-color:lightgrey !important;
+ }
+
+.navbar-brand:hover{
+color:lightgrey !important;
+}
+
+/* Images */
+img{
+  width:100% !important;
+  height:100% !important;
+}
+.active, .panel:hover{
+  border-color:steelblue;
+  border-style: solid;
+   
+   
+}
+.vizualization{
+  width:50% !important;
+  height:50% !important;
+}
+

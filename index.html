@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Weather_Py</title>
+  <title>Weather_Py - Bootstrap Visualization Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
 
@@ -13,15 +13,14 @@
     crossorigin="anonymous">
   
   
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-  <!-- Landing Page -->
-  <div class="landing page"></div>
-    
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" style="font-weight: bolder; background-color: #4682b4; padding-left: 10px; padding-right: 10px;" href="index.html" >Latitude</a>
+  <!-- Navigation -->
+  <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html" >Latitude</a>
         <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,21 +28,21 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" style="font-weight: bolder; color: #4682b4;" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" style="font-weight: bolder; color: steelblue;" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" style="font-weight: bolder; color: #4682b4;" href="max_temperature.html">Max Temperature</a>
-                <a class="dropdown-item" style="font-weight: bolder; color: #4682b4;" href="humidity.html">Humidity</a>
-                <a class="dropdown-item" style="font-weight: bolder; color: #4682b4;" href="cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" style="font-weight: bolder; color: #4682b4;" href="wind_speed.html">Wind Speed</a>
+                <a class="dropdown-item" style="font-weight: bolder; color: steelblue;" href="max_temp.html">Max Temperature</a>
+                <a class="dropdown-item" style="font-weight: bolder; color: steelblue;" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" style="font-weight: bolder; color: steelblue;" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" style="font-weight: bolder; color: steelblue;" href="wind_speed.html">Wind Speed</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="font-weight: bolder; color: #4682b4;"href="comparisons.html">Comparison</a>
+              <a class="nav-link" style="font-weight: bolder; color: steelblue;"href="comparisons.html">Comparison</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="font-weight: bolder; color: #4682b4;" href="data.html">Data</a>
+              <a class="nav-link" style="font-weight: bolder; color: steelblue;" href="data.html">Data</a>
             </li>
 
           </ul>
@@ -57,7 +56,7 @@
       <div class= "col-7">
         <!-- Left box  -->
         <div class="box">
-          <h3 class="title" style="font-weight: bolder; color: #4682b4;">Summary: Latitude vs. X</h3>
+          <h3 class="title" style="font-weight: bolder; color: steelblue;">Summary: Latitude vs. X</h3>
           <hr>
           <img src="assets\images\City Latitude vs Max Temperature.png" class="vizualization rounded float-left" alt="Max Temperature Graph" >
           <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
@@ -72,7 +71,7 @@
       <div class="col-5">
         <!-- Right Box -->
         <div class="box">
-          <h4 class="title" style="font-weight: bolder; color: #4682b4;">Visualizations</h4>
+          <h4 class="title" style="font-weight: bolder; color: steelblue;">Visualizations</h4>
           <hr>
 
           
@@ -80,13 +79,13 @@
           <div class="container">
             <div class="row" style="padding-bottom: 20px;">
               <div class="col-6">
-                <a href="max_temperature.html">
-                  <img src="assets\images\City Latitude vs Max Temperature.png" class="img-fluid" alt="Max Temperature Image">
+                <a href="max_temp.html">
+                  <img src="assets\images\City Latitude vs Max Temperature.png" class="panel" alt="Max Temperature Image">
                 </a>
               </div>
               <div class="col-6">
                 <a href="humidity.html">
-                  <img src="assets\images\City Latitude vs Humidity.png" class="img-fluid" alt="Humidity Graph">
+                  <img src="assets\images\City Latitude vs Humidity.png" class="panel" alt="Humidity Graph">
                 </a>
               </div>
             </div>
@@ -94,12 +93,12 @@
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
                 <a href="cloudiness.html">
-                  <img src="assets\images\City Latitude vs Cloudiness.png" class="img-fluid" alt="Cloudiness Graph">
+                  <img src="assets\images\City Latitude vs Cloudiness.png" class="panel" alt="Cloudiness Graph">
                 </a>
               </div>
               <div class="col-6">
                 <a href="wind_speed.html">
-                  <img src="assets\images\City Latitude vs Wind Speed.png" class="img-fluid" alt="Wind Speed Graph">
+                  <img src="assets\images\City Latitude vs Wind Speed.png" class="panel" alt="Wind Speed Graph">
                 </a>
               </div>
             </div>
