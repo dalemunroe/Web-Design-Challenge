@@ -58,3 +58,23 @@ img{
   height:50% !important;
 }
 
+@media(max-width: 992px){
+  .navbar-expand-lg{
+  background-color: steelblue !important;
+  }
+  .navbar{
+      max-height: none; 
+      padding: inherit;
+  }
+  .navbar div{
+      margin: inherit; 
+      background-color: white;  
+  }
+  .navbar-brand{
+      padding: 10px !important; 
+  }
+  
+  button{
+      margin-right: 15px; 
+  }
+  
